@@ -12,6 +12,7 @@ import android.view.ViewGroup;
  */
 
 public class TestBranch extends Fragment{
+    private static final String TAG = "TestBranch";
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
