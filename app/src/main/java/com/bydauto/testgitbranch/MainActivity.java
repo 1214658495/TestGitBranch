@@ -18,4 +18,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
+//dev1增加onStart方法
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+    //dev1增加onStop方法
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 }
