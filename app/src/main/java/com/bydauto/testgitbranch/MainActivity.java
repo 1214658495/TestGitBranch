@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 //dev1增加onStart方法
     @Override
     protected void onStart() {
+        Log.e(TAG, "onStart: ");
         super.onStart();
     }
     //dev1增加onStop方法
